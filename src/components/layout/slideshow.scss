@@ -1,0 +1,57 @@
+.btn-circular {
+  width: 60px;
+  height: 60px;
+  padding: 10px 16px;
+  border-radius: 35px;
+  font-size: 24px;
+  line-height: 1.33;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.white {
+  background-color: #cfcfcf;
+}
+
+.slide-controls {
+  padding: 235px 140px 235px 140px;
+}
+
+.slide-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.title-box {
+  padding: 20px;
+  padding-top: 180px;
+  box-sizing: revert;
+  width: 100%;
+  clear: both;
+
+  .title-title {
+    font-size: 82px;
+  }
+
+  .title-text {
+    font-size: 28px;
+  }
+}
+
+.header-image-box {
+  float: right;
+  position: relative;
+  width: 100%;
+  padding-right: 100px;
+
+  img {
+    float: right;
+  }
+}
