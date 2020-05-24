@@ -7,25 +7,3 @@
 .header-menu-white-back {
   background-color: #ffffff;
 }
-
-.header-foot {
-  height: 10em;
-  margin: 0px;
-
-  .centered-items {
-    text-align: center;
-    align-content: center;
-    vertical-align: middle;
-
-    .exyte-copyright {
-      font-size: 16px;
-    }
-  }
-
-  .contrast-affiliate-links {
-    background-color: #000000;
-    color: #ffffff;
-    flex: max-content;
-    padding: 65px;
-  }
-}
