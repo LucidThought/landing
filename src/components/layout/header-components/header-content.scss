@@ -1,6 +1,6 @@
 .header-foot {
-  height: 10em;
-  margin: 0px;
+  margin: 20px;
+  border-bottom: 1px solid lightgray;
 
   .centered-items {
     text-align: center;
@@ -14,6 +14,5 @@
 .contrast-affiliate-links {
   background-color: #000000;
   color: #ffffff;
-  flex: max-content;
-  padding: 20px;
+  flex: auto;
 }

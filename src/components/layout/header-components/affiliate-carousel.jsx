@@ -5,9 +5,9 @@ import "./affiliate-carousel.scss";
 
 const AffiliateCarousel = () => {
   const affiliates = [
-    "/header/affiliate/thumzap.png",
-    "/header/affiliate/gallivnt.png",
-    "/header/affiliate/100clouds.png",
+    { key: "thumzap", src: "/header/affiliate/thumzap.png" },
+    { key: "gallivnt", src: "/header/affiliate/gallivnt.png" },
+    { key: "100clouds", src: "/header/affiliate/100clouds.png" },
   ];
   const [currentHead, setCurrentHead] = useState(0);
 
@@ -19,8 +19,8 @@ const AffiliateCarousel = () => {
       else displayThese.push(affiliates[i + currentHead]);
     }
     const carouselItems = displayThese.map((affiliate) => (
-      <div className="affiliate-item">
-        <img src={affiliate} alt="Affiliate" />
+      <div className="affiliate-item" key={affiliate.key}>
+        <img src={affiliate.src} alt="Affiliate" />
       </div>
     ));
 

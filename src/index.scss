@@ -29,6 +29,12 @@ h5 {
   padding: 0px !important;
 }
 
+.no-margin-left-right {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  width: 100%;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;

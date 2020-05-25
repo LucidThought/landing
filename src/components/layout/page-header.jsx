@@ -1,9 +1,9 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Navbar from "./header-components/navbar";
+import HeaderContent from "./header-components/header-content";
 
 import "./page-header.scss";
-import HeaderContent from "./header-components/header-content";
 
 const PageHeader = () => {
   return (
