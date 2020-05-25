@@ -1,3 +1,6 @@
+Quickly made a recreation of sections of a landing page found on Dribble here: https://dribbble.com/shots/6591294-Exyte-Landing-page/attachments/1409034
+The 'navbar' and 'slideshow' components for the header area can easily be used again for the footer section of the page, with their contents removed and fed to the component as props. If this was a larger project I would likely have used typescript for cleaner code and redux for state management, but I didn't have the time this weekend to fiddle around with all of that. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
